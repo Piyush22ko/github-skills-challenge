@@ -32,7 +32,7 @@ stream so that downstream processing can report the issue.
 
 ## Operational data analysis
 
-Each observation has seven attributes. `timestamp` identifies the observation in
+Each observation has eight fields. `timestamp` identifies the observation in
 ISO 8601 format and is ordered at one-minute intervals from
 `2026-09-20T10:00:00` through `2026-09-20T10:09:00`. This makes the data a time
 series and shows the incident between otherwise healthy observations.
